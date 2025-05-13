@@ -73,12 +73,12 @@ Start.MouseButton1Click:Connect(function()
 local Window = OrionLib:MakeWindow({Name = "222脚本", HidePremium = false, SaveConfig = true,IntroText = "222脚本", ConfigFolder = "222脚本"})
 
 local about = Window:MakeTab({
-    Name = "小陈制作",
-    Icon = "rbxassetid://4483345998",
+    Name = "222制作",
+    Icon = "rbxassetid://123995681758006",
     PremiumOnly = false
 })
 about:AddParagraph("该脚本为测试版，永久免费")
-about:AddParagraph("脚本免费脚本 二改")
+about:AddParagraph("脚本二改脚本 请勿去圈钱")
 about:AddParagraph("作者:222 ")
 about:AddParagraph("帮助者:222 ")
 about:AddParagraph("帮助者QQ:3075008157")
@@ -86,9 +86,9 @@ about:AddParagraph("作者QQ:3075008157 更新以及反馈QQ群:687245204")
 about:AddParagraph("倒卖没亩 ")
 
 OrionLib:MakeNotification({
-	Name = "222脚本",
+	Name = "陈脚本",
 	Content = "欢迎使用陈脚本",
-	Image = "rbxassetid://123995681758006",
+	Image = "rbxassetid://4483345998",
 	Time = 2
 })
 
