@@ -66,7 +66,6 @@ Start.TextScaled = true
 Start.TextSize = 10
 Start.TextWrapped = true
 
-
 local Window = OrionLib:MakeWindow({Name = "222脚本", HidePremium = false, SaveConfig = true,IntroText = "222脚本", ConfigFolder = "222脚本"})
 
 local about = Window:MakeTab({
