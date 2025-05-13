@@ -610,7 +610,6 @@ Tab:AddButton({
 })
 
 OrionLib:Init()
-    else
-        game.Players.LocalPlayer:Kick("没卡密还想玩去S，S马玩意儿，作者QQ3075008157")
+
     end
 end)
