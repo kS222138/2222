@@ -70,7 +70,7 @@ local Window = OrionLib:MakeWindow({Name = "222脚本", HidePremium = false, Sav
 
 local about = Window:MakeTab({
     Name = "小陈制作",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://123995681758006",
     PremiumOnly = false
 })
 about:AddParagraph("该脚本为测试版，永久免费")
