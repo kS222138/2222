@@ -4,7 +4,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『222脚本
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『222脚本』"; Text ="加载成功 祝你愉快"; Icon = "rbxassetid://92833142656790"; Duration = 4; })
  wait(1)
 
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/notificationtest"))();
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/kS222138/2222/refs/heads/main/222ul.txt"))();
 local Notify = Notification.Notify;
 
  Notify({
