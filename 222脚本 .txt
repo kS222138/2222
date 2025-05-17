@@ -1,7 +1,7 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『222脚本』"; Text ="防踢已开启"; Icon = "rbxassetid://123995681758006"; Duration = 4; })
  wait(2)
 
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『222脚本』"; Text ="加载成功 祝你愉快"; Icon = "rbxassetid://123995681758006"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『222脚本』"; Text ="加载成功 祝你愉快"; Icon = "rbxassetid://138297854770940"; Duration = 4; })
  wait(1)
 
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/notificationtest"))();
@@ -759,6 +759,26 @@ local about = UITab30:section("『鱼』",true)
 
 about:Button("鱼",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/refs/heads/main/Script"))()
+end)
+
+local UITab30 = win:Tab("『死铁轨』",'7734068321')
+
+local about = UITab30:section("『死铁轨』",true)
+
+about:Button("刷卷脚本1",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))()
+end)
+
+about:Button("脚本2",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
+end)
+
+about:Button("脚本3",function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-Dead-Rails-OP-KiciaHook-Script-Fastest-Auto-Farm-35961"))()
+end)
+
+about:Button("脚本4",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/TheFastestBondStealer.lua"))()
 end)
 
 local UITab30 = win:Tab("『挖掘它』",'7734068321')
